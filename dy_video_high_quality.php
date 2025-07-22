@@ -21,7 +21,7 @@ function douyin($url)
     // 2. 优先调用TikHub最高画质接口  地址：https://api.tikhub.io/
     //    接口文档：https://docs.tikhub.io/312096107e0 
     //    到官网 https://user.tikhub.io/users/signup?referral_code=gxo42Ba1 自行申请key替换
-    $tikhub_key = '你的apikey';
+    $tikhub_key = '9+JqEk90+UNypCE5iUTrsHVv/QENlMCcl4ki/Cz6rmNlqVdWJeJ44TuRPg==';
     $tikhub_api = 'https://api.tikhub.io/api/v1/douyin/app/v3/fetch_video_high_quality_play_url?aweme_id=' . $id;
     $tikhub_header = array('Authorization: Bearer ' . $tikhub_key);
     
